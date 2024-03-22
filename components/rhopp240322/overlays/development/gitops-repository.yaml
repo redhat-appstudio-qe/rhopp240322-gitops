@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: rhopp240322-gitops-repository
+spec:
+  url: https://github.com/redhat-appstudio-qe/rhopp240322-gitops
